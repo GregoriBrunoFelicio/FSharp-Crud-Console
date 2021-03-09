@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CLIENTE\\Desktop\\Repositorios\\FSharp.Crud.Console\\Console\\Console.fsproj": {}
+    "C:\\Users\\GregoriBrunoFelicio\\Desktop\\Repositories\\FSharp-Crud-Console\\Console\\Console.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\CLIENTE\\Desktop\\Repositorios\\FSharp.Crud.Console\\Console\\Console.fsproj": {
+    "C:\\Users\\GregoriBrunoFelicio\\Desktop\\Repositories\\FSharp-Crud-Console\\Console\\Console.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CLIENTE\\Desktop\\Repositorios\\FSharp.Crud.Console\\Console\\Console.fsproj",
+        "projectUniqueName": "C:\\Users\\GregoriBrunoFelicio\\Desktop\\Repositories\\FSharp-Crud-Console\\Console\\Console.fsproj",
         "projectName": "Console",
-        "projectPath": "C:\\Users\\CLIENTE\\Desktop\\Repositorios\\FSharp.Crud.Console\\Console\\Console.fsproj",
-        "packagesPath": "C:\\Users\\CLIENTE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CLIENTE\\Desktop\\Repositorios\\FSharp.Crud.Console\\Console\\obj\\",
+        "projectPath": "C:\\Users\\GregoriBrunoFelicio\\Desktop\\Repositories\\FSharp-Crud-Console\\Console\\Console.fsproj",
+        "packagesPath": "C:\\Users\\GregoriBrunoFelicio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GregoriBrunoFelicio\\Desktop\\Repositories\\FSharp-Crud-Console\\Console\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\CLIENTE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\GregoriBrunoFelicio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -29,34 +30,41 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         }
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "FSharp.Core": {
               "target": "Package",
-              "version": "[4.7.0, )"
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
             },
             "FSharp.Data.SqlClient": {
               "target": "Package",
-              "version": "[2.0.6, )"
+              "version": "[2.0.6, )",
+              "generatePathProperty": true
             },
             "Microsoft.CodeAnalysis.FxCopAnalyzers": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.9.8, )"
+              "version": "[2.9.8, )",
+              "generatePathProperty": true
             },
             "SqlProvider": {
               "target": "Package",
-              "version": "[1.1.84, )"
+              "version": "[1.1.84, )",
+              "generatePathProperty": true
             },
             "System.Data.SqlClient": {
               "target": "Package",
-              "version": "[4.8.0, )"
+              "version": "[4.8.0, )",
+              "generatePathProperty": true
             }
           },
           "imports": [
@@ -74,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

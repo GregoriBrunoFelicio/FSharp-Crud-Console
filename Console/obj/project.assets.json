@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "FSharp.Core/4.7.0": {
+      "FSharp.Core/5.0.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/FSharp.Core.dll": {}
@@ -574,35 +574,17 @@
     }
   },
   "libraries": {
-    "FSharp.Core/4.7.0": {
-      "sha512": "6Bf2qzSCaJoP6tTfO+a5muUS7QbyJANqSut73zQvwQ9It5P0ITz9VKseeia2ofco30c55EQ0jA2wf2+A2gpGnw==",
+    "FSharp.Core/5.0.0": {
+      "sha512": "iHoYXA0VaSQUONGENB1aVafjDDZDZpwu39MtaRCTrmwFW/cTcK0b2yKNVYneFHJMc3ChtsSoM9lNtJ1dYXkHfA==",
       "type": "package",
-      "path": "fsharp.core/4.7.0",
+      "path": "fsharp.core/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "fsharp.core.4.7.0.nupkg.sha512",
+        "Icon.png",
+        "fsharp.core.5.0.0.nupkg.sha512",
         "fsharp.core.nuspec",
-        "lib/net45/FSharp.Core.dll",
-        "lib/net45/FSharp.Core.optdata",
-        "lib/net45/FSharp.Core.sigdata",
-        "lib/net45/FSharp.Core.xml",
-        "lib/net45/cs/FSharp.Core.resources.dll",
-        "lib/net45/de/FSharp.Core.resources.dll",
-        "lib/net45/es/FSharp.Core.resources.dll",
-        "lib/net45/fr/FSharp.Core.resources.dll",
-        "lib/net45/it/FSharp.Core.resources.dll",
-        "lib/net45/ja/FSharp.Core.resources.dll",
-        "lib/net45/ko/FSharp.Core.resources.dll",
-        "lib/net45/pl/FSharp.Core.resources.dll",
-        "lib/net45/pt-BR/FSharp.Core.resources.dll",
-        "lib/net45/ru/FSharp.Core.resources.dll",
-        "lib/net45/tr/FSharp.Core.resources.dll",
-        "lib/net45/zh-Hans/FSharp.Core.resources.dll",
-        "lib/net45/zh-Hant/FSharp.Core.resources.dll",
         "lib/netstandard2.0/FSharp.Core.dll",
-        "lib/netstandard2.0/FSharp.Core.optdata",
-        "lib/netstandard2.0/FSharp.Core.sigdata",
         "lib/netstandard2.0/FSharp.Core.xml",
         "lib/netstandard2.0/cs/FSharp.Core.resources.dll",
         "lib/netstandard2.0/de/FSharp.Core.resources.dll",
@@ -2430,7 +2412,7 @@
       ]
     },
     "System.Security.Permissions/4.5.0": {
-      "sha512": "O+e9qamSTJ4YOJCpnLgsf9FTGfsxJv2On1OdYkhmd/XA5AYRvUatkz7Rp3dS9XR7rhVuklnjST1dRoMK7N4cGw==",
+      "sha512": "9gdyuARhUR7H+p5CjyUB/zPk7/Xut3wUSP8NJQB6iZr8L3XUXTMdoLeVAg9N4rqF8oIpE7MpdqHdDHQ7XgJe0g==",
       "type": "package",
       "path": "system.security.permissions/4.5.0",
       "files": [
@@ -2724,7 +2706,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "FSharp.Core >= 4.7.0",
+      "FSharp.Core >= 5.0.0",
       "FSharp.Data.SqlClient >= 2.0.6",
       "Microsoft.CodeAnalysis.FxCopAnalyzers >= 2.9.8",
       "SqlProvider >= 1.1.84",
@@ -2732,24 +2714,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CLIENTE\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\GregoriBrunoFelicio\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CLIENTE\\Desktop\\Repositorios\\FSharp.Crud.Console\\Console\\Console.fsproj",
+      "projectUniqueName": "C:\\Users\\GregoriBrunoFelicio\\Desktop\\Repositories\\FSharp-Crud-Console\\Console\\Console.fsproj",
       "projectName": "Console",
-      "projectPath": "C:\\Users\\CLIENTE\\Desktop\\Repositorios\\FSharp.Crud.Console\\Console\\Console.fsproj",
-      "packagesPath": "C:\\Users\\CLIENTE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CLIENTE\\Desktop\\Repositorios\\FSharp.Crud.Console\\Console\\obj\\",
+      "projectPath": "C:\\Users\\GregoriBrunoFelicio\\Desktop\\Repositories\\FSharp-Crud-Console\\Console\\Console.fsproj",
+      "packagesPath": "C:\\Users\\GregoriBrunoFelicio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GregoriBrunoFelicio\\Desktop\\Repositories\\FSharp-Crud-Console\\Console\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\CLIENTE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\GregoriBrunoFelicio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -2760,34 +2743,41 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       }
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "FSharp.Core": {
             "target": "Package",
-            "version": "[4.7.0, )"
+            "version": "[5.0.0, )",
+            "generatePathProperty": true
           },
           "FSharp.Data.SqlClient": {
             "target": "Package",
-            "version": "[2.0.6, )"
+            "version": "[2.0.6, )",
+            "generatePathProperty": true
           },
           "Microsoft.CodeAnalysis.FxCopAnalyzers": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[2.9.8, )"
+            "version": "[2.9.8, )",
+            "generatePathProperty": true
           },
           "SqlProvider": {
             "target": "Package",
-            "version": "[1.1.84, )"
+            "version": "[1.1.84, )",
+            "generatePathProperty": true
           },
           "System.Data.SqlClient": {
             "target": "Package",
-            "version": "[4.8.0, )"
+            "version": "[4.8.0, )",
+            "generatePathProperty": true
           }
         },
         "imports": [
@@ -2805,7 +2795,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

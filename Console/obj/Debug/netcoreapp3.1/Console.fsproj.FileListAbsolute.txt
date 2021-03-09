@@ -41,3 +41,8 @@ C:\Users\CLIENTE\Desktop\Repositorios\FSharp.Crud.Console\Console\bin\Debug\netc
 C:\Users\CLIENTE\Desktop\Repositorios\FSharp.Crud.Console\Console\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\CLIENTE\Desktop\Repositorios\FSharp.Crud.Console\Console\obj\Debug\netcoreapp3.1\Console.dll
 C:\Users\CLIENTE\Desktop\Repositorios\FSharp.Crud.Console\Console\obj\Debug\netcoreapp3.1\Console.pdb
+C:\Users\GregoriBrunoFelicio\Desktop\Repositories\FSharp-Crud-Console\Console\obj\Debug\netcoreapp3.1\Console.fsprojAssemblyReference.cache
+C:\Users\GregoriBrunoFelicio\Desktop\Repositories\FSharp-Crud-Console\Console\obj\Debug\netcoreapp3.1\Console.AssemblyInfoInputs.cache
+C:\Users\GregoriBrunoFelicio\Desktop\Repositories\FSharp-Crud-Console\Console\obj\Debug\netcoreapp3.1\Console.AssemblyInfo.fs
+C:\Users\GregoriBrunoFelicio\Desktop\Repositories\FSharp-Crud-Console\Console\obj\Debug\netcoreapp3.1\Console.dll
+C:\Users\GregoriBrunoFelicio\Desktop\Repositories\FSharp-Crud-Console\Console\obj\Debug\netcoreapp3.1\Console.pdb

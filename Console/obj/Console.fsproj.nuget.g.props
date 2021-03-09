@@ -5,10 +5,13 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\CLIENTE\.nuget\packages\;C:\Program Files\dotnet\sdk\NuGetFallbackFolder</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\GregoriBrunoFelicio\.nuget\packages\;C:\Microsoft\Xamarin\NuGet\</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
-    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.4.0</NuGetToolVersion>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">5.8.1</NuGetToolVersion>
   </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="$([MSBuild]::EnsureTrailingSlash($(NuGetPackageFolders)))" />
+  </ItemGroup>
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
@@ -20,10 +23,14 @@
     <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.fxcopanalyzers\2.9.8\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.fxcopanalyzers\2.9.8\build\Microsoft.CodeAnalysis.FxCopAnalyzers.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_NetFramework_Analyzers Condition=" '$(PkgMicrosoft_NetFramework_Analyzers)' == '' ">C:\Users\CLIENTE\.nuget\packages\microsoft.netframework.analyzers\2.9.8</PkgMicrosoft_NetFramework_Analyzers>
-    <PkgMicrosoft_NetCore_Analyzers Condition=" '$(PkgMicrosoft_NetCore_Analyzers)' == '' ">C:\Users\CLIENTE\.nuget\packages\microsoft.netcore.analyzers\2.9.8</PkgMicrosoft_NetCore_Analyzers>
-    <PkgMicrosoft_CodeQuality_Analyzers Condition=" '$(PkgMicrosoft_CodeQuality_Analyzers)' == '' ">C:\Users\CLIENTE\.nuget\packages\microsoft.codequality.analyzers\2.9.8</PkgMicrosoft_CodeQuality_Analyzers>
-    <PkgMicrosoft_CodeAnalysis_VersionCheckAnalyzer Condition=" '$(PkgMicrosoft_CodeAnalysis_VersionCheckAnalyzer)' == '' ">C:\Users\CLIENTE\.nuget\packages\microsoft.codeanalysis.versioncheckanalyzer\2.9.8</PkgMicrosoft_CodeAnalysis_VersionCheckAnalyzer>
-    <PkgMicrosoft_CodeAnalysis_FxCopAnalyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_FxCopAnalyzers)' == '' ">C:\Users\CLIENTE\.nuget\packages\microsoft.codeanalysis.fxcopanalyzers\2.9.8</PkgMicrosoft_CodeAnalysis_FxCopAnalyzers>
+    <PkgSystem_Data_SqlClient Condition=" '$(PkgSystem_Data_SqlClient)' == '' ">C:\Users\GregoriBrunoFelicio\.nuget\packages\system.data.sqlclient\4.8.0</PkgSystem_Data_SqlClient>
+    <PkgFSharp_Core Condition=" '$(PkgFSharp_Core)' == '' ">C:\Users\GregoriBrunoFelicio\.nuget\packages\fsharp.core\5.0.0</PkgFSharp_Core>
+    <PkgSQLProvider Condition=" '$(PkgSQLProvider)' == '' ">C:\Users\GregoriBrunoFelicio\.nuget\packages\sqlprovider\1.1.84</PkgSQLProvider>
+    <PkgMicrosoft_NetFramework_Analyzers Condition=" '$(PkgMicrosoft_NetFramework_Analyzers)' == '' ">C:\Users\GregoriBrunoFelicio\.nuget\packages\microsoft.netframework.analyzers\2.9.8</PkgMicrosoft_NetFramework_Analyzers>
+    <PkgMicrosoft_NetCore_Analyzers Condition=" '$(PkgMicrosoft_NetCore_Analyzers)' == '' ">C:\Users\GregoriBrunoFelicio\.nuget\packages\microsoft.netcore.analyzers\2.9.8</PkgMicrosoft_NetCore_Analyzers>
+    <PkgMicrosoft_CodeQuality_Analyzers Condition=" '$(PkgMicrosoft_CodeQuality_Analyzers)' == '' ">C:\Users\GregoriBrunoFelicio\.nuget\packages\microsoft.codequality.analyzers\2.9.8</PkgMicrosoft_CodeQuality_Analyzers>
+    <PkgMicrosoft_CodeAnalysis_VersionCheckAnalyzer Condition=" '$(PkgMicrosoft_CodeAnalysis_VersionCheckAnalyzer)' == '' ">C:\Users\GregoriBrunoFelicio\.nuget\packages\microsoft.codeanalysis.versioncheckanalyzer\2.9.8</PkgMicrosoft_CodeAnalysis_VersionCheckAnalyzer>
+    <PkgMicrosoft_CodeAnalysis_FxCopAnalyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_FxCopAnalyzers)' == '' ">C:\Users\GregoriBrunoFelicio\.nuget\packages\microsoft.codeanalysis.fxcopanalyzers\2.9.8</PkgMicrosoft_CodeAnalysis_FxCopAnalyzers>
+    <PkgFSharp_Data_SqlClient Condition=" '$(PkgFSharp_Data_SqlClient)' == '' ">C:\Users\GregoriBrunoFelicio\.nuget\packages\fsharp.data.sqlclient\2.0.6</PkgFSharp_Data_SqlClient>
   </PropertyGroup>
 </Project>

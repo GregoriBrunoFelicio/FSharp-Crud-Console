@@ -1,24 +1,24 @@
 ﻿
 open Repository
-open Opcoes
+open Options
 
 [<EntryPoint>]
 let main argv =
 
-    printfn "1 - Ver todos \n2 - Adicionar \n3 - Atualizar \n4 - Remover"
-    let opcao = Some (System.Console.ReadLine())
+    printfn "1 - Get all \n2 - Add \n3 - Update \n4 - Delete"
+    let option = Some (System.Console.ReadLine())
 
-    match opcao with
-    | Some opcao when opcao = "1" -> 
-        Repository.obterTodos
-        |> Seq.iter (fun produto -> printfn "Nome: %s Preco: %f" produto.Nome produto.Preco)
-    | Some opcao when opcao = "2" -> 
-        Repository.criar Opcoes.adicionar
-    | Some opcao when opcao = "3" -> 
-        Repository.editar Opcoes.atualizar
-    | Some opcao when opcao = "4" -> 
-        Repository.remover Opcoes.remover
-    | _ -> printfn "Opcao invalida." 
+    match option with
+    | Some option when option = "1" -> 
+        Repository.getAll
+        |> Seq.iter (fun product -> printfn "Nome: %s Preco: %f" product.Name product.Price)
+    | Some option when option = "2" -> 
+        Repository.create Options.add
+    | Some option when option = "3" -> 
+        Repository.edit Options.edit
+    | Some option when option = "4" -> 
+        Repository.delete Options.delete
+    | _ -> printfn "option invalida." 
     | None -> ()
 
     0
